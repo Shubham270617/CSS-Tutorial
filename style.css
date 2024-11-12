@@ -1,0 +1,20 @@
+body{
+    background-color: #414141;
+}
+
+h1 {
+    color: green;
+
+}
+
+p {
+    color: rgb(12, 212, 146);
+}
+
+button {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(177, 222, 135);
+    border-radius: 3px;
+    color: rgb(240, 10, 10);
+}
