@@ -1,10 +1,14 @@
-body{
-    background-color: #414141;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-h1 {
-    color: green;
+body {
+    background-color: rgb(41, 230, 16);
+}
 
+h1{
+    color: aqua;
 }
 
 p {
@@ -17,4 +21,19 @@ button {
     background-color: rgb(177, 222, 135);
     border-radius: 3px;
     color: rgb(240, 10, 10);
+}
+
+/* Here us the ID selector */
+#headingone {
+    color: blue;
+}
+
+#headingtwo {
+    color: rgb(255, 0, 0);
+}
+
+
+/* Here is Class selector . */
+.myClass{
+    color: brown;
 }
