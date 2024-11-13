@@ -3,11 +3,11 @@
     margin: 0px;
 }
 
-body {
+/* body {
     background-color: rgb(41, 230, 16);
-}
+} */
 
-h1{
+h1 {
     color: aqua;
 }
 
@@ -34,6 +34,48 @@ button {
 
 
 /* Here is Class selector . */
-.myClass{
+.myClass {
     color: brown;
+}
+
+/* Text Properties */
+p {
+    text-align: center;
+}
+
+/* Text decoration */
+h4 {
+    text-decoration: blue wavy underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Font weight and font family*/
+
+#h1 {
+    font-weight: 100;
+    font-family: serif;
+}
+
+#h2 {
+    font-weight: 250;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#h3 {
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#h4 {
+    font-weight: 400;
+}
+
+/* Absolute pixel*/
+.container {
+    font-size: 25px;
+    text-transform: none;
+    line-height: 30px;
 }
